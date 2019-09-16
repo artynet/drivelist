@@ -10,8 +10,6 @@ before_install:
     else
       pip2 install -r requirements.txt;
     fi
-script:
-  - npm test
 compiler: clang-4.0
 env:
   global:
